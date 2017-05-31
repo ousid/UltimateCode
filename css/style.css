@@ -1,0 +1,334 @@
+/*--========================================================
+    *  template bootstrap by Ossama Senbai
+    *  Version: 1.0
+    *  licence: GNU
+    *  FACEBOOK: facebook.com/osCode
+    *  TWITTER: @os__code
+    *  github: github.com/senbai
+    ======================================================== --*/
+
+body { background-color: #D9E7D5 }
+
+h2 { color: #222 }
+
+
+/* ================ START NAVBAR ====================*/
+
+.navbar-default {
+    background-color: #B8E8A9;
+    border-bottom: 3px solid#3E9582
+}
+
+.navbar-toggle .collapsed {
+    background-color: #B8E8A9
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #FFF;
+    /*--------------*/
+    background-color: rgb(121, 224, 147)
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 3px;
+    background-color: rgba(179, 232, 169, 0.73)
+}
+
+.dropdown-menu>li>a { padding: 5px }
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    color: #FFF;
+    /*-------------*/
+    background-color: #5499bb
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #FFF;
+    /*--------------*/
+    background-color: rgba(49, 112, 143, 0.83)
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #31708f
+}
+
+
+/*============================= END NAVBAR ========================*/
+
+
+/*======================= START CAROUSEL ============================*/
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100%;
+    height: 600px
+}
+
+.carousel-caption {
+    width: auto;
+    height: 80px;
+    /*--------------*/
+    margin-bottom: 44px;
+    border-radius: 10px;
+    background-color: rgba(88, 194, 184, 0.7)
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    font-weight: bold
+}
+
+.carousel-indicators .active { background-color: #31708f }
+
+        /*============ MEDIA QUERY FOR CAROUSEL ===============*/
+@media screen and (max-width: 640px) {
+  .carousel-inner > .item > img, .carousel-inner > .item> a > img { height: 400px }
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img { height: 300px } 
+}
+
+/*======================= END CAROUSEL ============================*/
+
+
+/*========================== START PLANS ==================== */
+
+.plans {
+    width: 100%;
+    height: 500px;
+    /*--------------*/
+    margin-top: 30px;
+    margin-bottom: 10px
+}
+
+.plans .plan_1, .plan_2, .plan_3, .plan_4 {
+    width: 280px;
+    height: 390px;
+    /*---------------*/
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(49, 112, 143, 0.8)
+}
+
+.plan_active {
+    background-color: rgb(49, 112, 143);
+    box-shadow: 1px 1.5px 16px 1.5px
+}
+
+.plans .price {
+    color: #ecf0f1;
+    /*--------*/
+    font-weight: bold
+}
+
+.list-group-item {
+    color: #333;
+    border: none;
+    /*-----------*/
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px
+}
+
+.list-group-item:nth-child(odd) { background-color: rgba(255, 255, 255, .7) }
+
+.list-group .btn {
+    width: 145px;
+    /*--------*/
+    margin-top: 17px
+}
+    /*============= MEDIA QUERY FOR PLANS =================*/
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .plans .plan_1, .plan_2, .plan_3, .plan_4 { margin-left: 10% }
+}
+
+/*========================== END PLANS ==================== */
+
+
+/*=========================== START FEEDBACK ===============*/
+
+.feedback {
+    width: 100%;
+    height: auto;
+    /*----------*/
+    background-color: rgba(62, 149, 130, 0.72);
+    border-top: 2px dashed#FFF;
+    border-bottom: 2px dashed#FFF;
+    padding-bottom: 40px
+}
+
+.form-i {
+    margin-top: 70px
+}
+
+.form-i label {
+    color: #FFF;
+    /*-------*/
+    font-size: 18px;
+    font-weight: bold
+}
+
+textarea.input-lg,
+select[multiple].input-lg {
+    height: 228px;
+    resize: none
+}
+
+
+/*=========================== END FEEDBACK ===============*/
+
+
+/*=========================== START OUR SKILLS ===============*/
+
+.our-skills {
+    height: auto;
+    width: 100%;
+    /*-----------*/
+    padding-bottom: 20px;
+    background-color: #DFD
+}
+
+.progress-bar span {
+    display: block;
+    color: antiquewhite;
+    /*----------*/
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 3px
+}
+
+.progress {
+    width: 80%;
+    height: 28px;
+    /*----------*/
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 10px
+}
+
+.paragraph { margin-top: 20px }
+
+.Paragraph_our_skills {
+    padding: 10px;
+    height: auto;
+    border: 3px dashed#2980b9
+}
+
+
+/*=========================== END OUR SKILLS ===============*/
+
+
+/*=========================== START OUR SERVICES ===============*/
+
+.our-service {
+    width: 100%;
+    height: auto;
+    /*--------*/
+    padding-bottom: 20px;
+    border-top: 2px dashed#FFF;
+    border-bottom: 2px dashed#FFF;
+    background-color: #16a085
+}
+
+.service {
+    margin-top: 50px;
+    margin-left: 8%
+}
+
+.service section {
+    width: 300px;
+    height: auto
+}
+
+.service span {
+    display: block;
+    /*--------*/
+    font-size: 40px;
+    margin-bottom: 10px
+}
+
+.seo span { color: #FFF }
+
+.cms span { color: #DDD }
+
+.des span { color: chartreuse }
+
+
+/*=========================== END OUR SERVICES ===============*/
+
+
+/*=========================== START FOOTER SECTION ===============*/
+
+.footer {
+    width: 100%;
+    height: auto;
+    /*------------*/
+    padding-bottom: 20px;
+    background-color: #34495e
+}
+
+.footer section {
+    margin-left: 40%;
+    margin-top: 80px
+}
+
+.footer p {
+    color: #FFF;
+    /*---------*/
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold
+}
+
+p.copy { margin-top: 50px }
+
+.follow img {
+    width: 50px;
+    height: 50px;
+    /*---------*/
+    margin-left: 10px
+}
+
+@media screen and (min-width: 400px) {
+    .footer section {margin-left: 26%}
+}
+
+
+/*=========================== END FOOTER SECTION ===============*/
+
+
+/*===========================  BACK TO THE TOP ===============*/
+
+.back-to-top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 80px;
+    right: 35px;
+    display: none;
+    /*-------------*/
+    background-color: rgba(149, 165, 166, 0.7);
+    border-radius: 20%
+}
+
+.back-to-top span {
+    color: #ecf0f1;
+    /*-------------*/
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-left: 11px
+}
+
+.back-to-top:hover {
+    background-color: #95a5a6;
+    text-decoration: none
+}
