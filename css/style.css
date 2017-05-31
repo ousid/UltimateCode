@@ -297,7 +297,7 @@ p.copy { margin-top: 50px }
     margin-left: 10px
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
     .footer section {margin-left: 26%}
 }
 
